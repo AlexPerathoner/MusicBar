@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0285EC14D33EBEF1107445668FFAA98C /* Pods-MusicBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A47231EED1C75A8CBC342B417DF253E /* Pods-MusicBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39901ED0E424B4AD66D94DBF5ED432A3 /* LoginServiceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E8B9A9D2C2228A22B6BD2A7BE1F9C9 /* LoginServiceKit-dummy.m */; };
+		440160B8AB3C48FC90A05BB1C9C97B96 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		488323F67CF2B1E9DCA2E3E5D4011B02 /* Pods-MusicBarTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCCE0BC9AFF7DB510C66A2B6520ADBD0 /* Pods-MusicBarTests-dummy.m */; };
+		4A911DC673952D8DCD4124E8D6C35457 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		5C232150CA77EF06DC418A48F78C822F /* LoginServiceKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2129FD663555FACAE95A24CDE13D2AE6 /* LoginServiceKit.swift */; };
+		5E0096B7CEABADDB1A5B8A6586A27596 /* Pods-MusicBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A27AE9690CC4E46522086EDA950D0F /* Pods-MusicBar-dummy.m */; };
+		9824BFBFD96E1D47E6D3F787AE79F9A6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		AC3CA1053729522C74C2A64FCC5498CC /* Pods-MusicBarTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF44E2D4A87ADD13EA1865005193FBE4 /* Pods-MusicBarTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD9EA8AA8D3959577C324CE51105CC90 /* LoginServiceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FD16C3867093D1D47BBDD2E9ADC1586 /* LoginServiceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE7427484177E701D07AD0DC6F72760C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4363B3DEE0E244A6E95B497FB82E7385;
+			remoteInfo = LoginServiceKit;
+		};
+		D0753E3961E769C09B5252240E20FFF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFD06D1625D8E885E7D8C0AF0218A9A5;
+			remoteInfo = "Pods-MusicBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028EA2782060225D6749DEDE1AAED61F /* LoginServiceKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LoginServiceKit-Info.plist"; sourceTree = "<group>"; };
+		053172D41AC1DE17D0B8D21D12D3DE28 /* Pods-MusicBar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MusicBar-frameworks.sh"; sourceTree = "<group>"; };
+		07BE0B8534F2E2ED4A8CB9FEFE07EFA7 /* LoginServiceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginServiceKit-prefix.pch"; sourceTree = "<group>"; };
+		195AC6E41A538812064949CC8FEE438A /* Pods-MusicBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MusicBar.modulemap"; sourceTree = "<group>"; };
+		2129FD663555FACAE95A24CDE13D2AE6 /* LoginServiceKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginServiceKit.swift; path = Lib/LoginServiceKit/LoginServiceKit.swift; sourceTree = "<group>"; };
+		38F2DAFB59FB0FE522AA547606B1C639 /* Pods-MusicBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicBar-Info.plist"; sourceTree = "<group>"; };
+		46A64846100703305383CA52776425B6 /* Pods_MusicBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A47231EED1C75A8CBC342B417DF253E /* Pods-MusicBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicBar-umbrella.h"; sourceTree = "<group>"; };
+		5FD16C3867093D1D47BBDD2E9ADC1586 /* LoginServiceKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginServiceKit-umbrella.h"; sourceTree = "<group>"; };
+		5FF33020203DFD9679A4A2A5EE3E36B6 /* Pods_MusicBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MusicBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62642F16D85FB33E8264571C33187F84 /* LoginServiceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LoginServiceKit.modulemap; sourceTree = "<group>"; };
+		80F789F8696A21C7317945B6818D4389 /* Pods-MusicBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicBar-acknowledgements.plist"; sourceTree = "<group>"; };
+		820475DEE643F008B5FBA1874C6447A9 /* LoginServiceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LoginServiceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D483AAA4E6C1FFE74B3975800591CDE /* Pods-MusicBarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicBarTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D550BA6F11C12AD190A985A5D54303C /* Pods-MusicBar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MusicBar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5E67113A6FB21FD09FD8C557DA3BA0D /* Pods-MusicBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2A27AE9690CC4E46522086EDA950D0F /* Pods-MusicBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicBar-dummy.m"; sourceTree = "<group>"; };
+		C7BC9930DC9D277A0A2A8DB811766992 /* Pods-MusicBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB20F1BBAE1C4454A785B1D99D02C8CB /* Pods-MusicBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicBar.debug.xcconfig"; sourceTree = "<group>"; };
+		CCB36557C3408CB6528130BF45D24D58 /* Pods-MusicBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MusicBar.release.xcconfig"; sourceTree = "<group>"; };
+		D4D92FAAACDC766EBCF3FCFC5B95090C /* Pods-MusicBarTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MusicBarTests.modulemap"; sourceTree = "<group>"; };
+		D4FAF1A7A7E996B1871D55BE0A59853D /* Pods-MusicBarTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MusicBarTests-Info.plist"; sourceTree = "<group>"; };
+		DC6E310FF7B28520F076340E6F6EFA65 /* LoginServiceKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginServiceKit.xcconfig; sourceTree = "<group>"; };
+		DCCE0BC9AFF7DB510C66A2B6520ADBD0 /* Pods-MusicBarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MusicBarTests-dummy.m"; sourceTree = "<group>"; };
+		DF44E2D4A87ADD13EA1865005193FBE4 /* Pods-MusicBarTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MusicBarTests-umbrella.h"; sourceTree = "<group>"; };
+		E8426165025F55D0947E05A84F368343 /* Pods-MusicBarTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MusicBarTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6E8B9A9D2C2228A22B6BD2A7BE1F9C9 /* LoginServiceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginServiceKit-dummy.m"; sourceTree = "<group>"; };
+		F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB65A48D8F6087DBE6EE068559897D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9824BFBFD96E1D47E6D3F787AE79F9A6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CB5D4858755E8EB83F798A97790E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440160B8AB3C48FC90A05BB1C9C97B96 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7664AE1305448C788242DDD49ACE887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A911DC673952D8DCD4124E8D6C35457 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		023901554BEF62B610C74254F7386E63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				820475DEE643F008B5FBA1874C6447A9 /* LoginServiceKit.framework */,
+				46A64846100703305383CA52776425B6 /* Pods_MusicBar.framework */,
+				5FF33020203DFD9679A4A2A5EE3E36B6 /* Pods_MusicBarTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D59ACDC2B11497DEC7E7B490DF32647 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				73A79EE3BC922B67EDFB904AFBB80437 /* Pods-MusicBar */,
+				DAB18C33494B64FF7D9E95B30112BF5D /* Pods-MusicBarTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		73A79EE3BC922B67EDFB904AFBB80437 /* Pods-MusicBar */ = {
+			isa = PBXGroup;
+			children = (
+				195AC6E41A538812064949CC8FEE438A /* Pods-MusicBar.modulemap */,
+				9D550BA6F11C12AD190A985A5D54303C /* Pods-MusicBar-acknowledgements.markdown */,
+				80F789F8696A21C7317945B6818D4389 /* Pods-MusicBar-acknowledgements.plist */,
+				B2A27AE9690CC4E46522086EDA950D0F /* Pods-MusicBar-dummy.m */,
+				053172D41AC1DE17D0B8D21D12D3DE28 /* Pods-MusicBar-frameworks.sh */,
+				38F2DAFB59FB0FE522AA547606B1C639 /* Pods-MusicBar-Info.plist */,
+				5A47231EED1C75A8CBC342B417DF253E /* Pods-MusicBar-umbrella.h */,
+				CB20F1BBAE1C4454A785B1D99D02C8CB /* Pods-MusicBar.debug.xcconfig */,
+				CCB36557C3408CB6528130BF45D24D58 /* Pods-MusicBar.release.xcconfig */,
+			);
+			name = "Pods-MusicBar";
+			path = "Target Support Files/Pods-MusicBar";
+			sourceTree = "<group>";
+		};
+		8F9EFBF59D705A36FFDD18B602E8C869 /* LoginServiceKit */ = {
+			isa = PBXGroup;
+			children = (
+				2129FD663555FACAE95A24CDE13D2AE6 /* LoginServiceKit.swift */,
+				F4D9A3408EB069E07797CE270BAF35F8 /* Support Files */,
+			);
+			path = LoginServiceKit;
+			sourceTree = "<group>";
+		};
+		A95C8D1716EB36BFAA5BEA992DE63920 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F9EFBF59D705A36FFDD18B602E8C869 /* LoginServiceKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CBD43E0947D94E318A0ED1350CFF29ED /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				A95C8D1716EB36BFAA5BEA992DE63920 /* Pods */,
+				023901554BEF62B610C74254F7386E63 /* Products */,
+				5D59ACDC2B11497DEC7E7B490DF32647 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB18C33494B64FF7D9E95B30112BF5D /* Pods-MusicBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4D92FAAACDC766EBCF3FCFC5B95090C /* Pods-MusicBarTests.modulemap */,
+				E8426165025F55D0947E05A84F368343 /* Pods-MusicBarTests-acknowledgements.markdown */,
+				8D483AAA4E6C1FFE74B3975800591CDE /* Pods-MusicBarTests-acknowledgements.plist */,
+				DCCE0BC9AFF7DB510C66A2B6520ADBD0 /* Pods-MusicBarTests-dummy.m */,
+				D4FAF1A7A7E996B1871D55BE0A59853D /* Pods-MusicBarTests-Info.plist */,
+				DF44E2D4A87ADD13EA1865005193FBE4 /* Pods-MusicBarTests-umbrella.h */,
+				A5E67113A6FB21FD09FD8C557DA3BA0D /* Pods-MusicBarTests.debug.xcconfig */,
+				C7BC9930DC9D277A0A2A8DB811766992 /* Pods-MusicBarTests.release.xcconfig */,
+			);
+			name = "Pods-MusicBarTests";
+			path = "Target Support Files/Pods-MusicBarTests";
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBD43E0947D94E318A0ED1350CFF29ED /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4D9A3408EB069E07797CE270BAF35F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62642F16D85FB33E8264571C33187F84 /* LoginServiceKit.modulemap */,
+				DC6E310FF7B28520F076340E6F6EFA65 /* LoginServiceKit.xcconfig */,
+				F6E8B9A9D2C2228A22B6BD2A7BE1F9C9 /* LoginServiceKit-dummy.m */,
+				028EA2782060225D6749DEDE1AAED61F /* LoginServiceKit-Info.plist */,
+				07BE0B8534F2E2ED4A8CB9FEFE07EFA7 /* LoginServiceKit-prefix.pch */,
+				5FD16C3867093D1D47BBDD2E9ADC1586 /* LoginServiceKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LoginServiceKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		97C249D8B94D576C224CA6105B518D02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9EA8AA8D3959577C324CE51105CC90 /* LoginServiceKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE8A5B35066ADB5CBE47F42944EA9B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0285EC14D33EBEF1107445668FFAA98C /* Pods-MusicBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E96A6283159A9A11236449A5F5A333 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3CA1053729522C74C2A64FCC5498CC /* Pods-MusicBarTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		341C39EBCF360FDD9CE836AE8A70853C /* Pods-MusicBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ACD57DE3A75276E864C39CDB2851600 /* Build configuration list for PBXNativeTarget "Pods-MusicBarTests" */;
+			buildPhases = (
+				E2E96A6283159A9A11236449A5F5A333 /* Headers */,
+				26B0750C9BF95A1299AB08E813BF85FF /* Sources */,
+				E7664AE1305448C788242DDD49ACE887 /* Frameworks */,
+				FFE2E5C3932D5F5C48DB2CA73AC54921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1189AD398049AF3CF17F4B0196B48A74 /* PBXTargetDependency */,
+			);
+			name = "Pods-MusicBarTests";
+			productName = "Pods-MusicBarTests";
+			productReference = 5FF33020203DFD9679A4A2A5EE3E36B6 /* Pods_MusicBarTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4363B3DEE0E244A6E95B497FB82E7385 /* LoginServiceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6310DB0AF3F4FB8C97CF81017433C2D /* Build configuration list for PBXNativeTarget "LoginServiceKit" */;
+			buildPhases = (
+				97C249D8B94D576C224CA6105B518D02 /* Headers */,
+				EC1E63028C94A657E523CF7E86650E8C /* Sources */,
+				3CB65A48D8F6087DBE6EE068559897D9 /* Frameworks */,
+				D67CF8E41FCE21EB2DB9C6B008323288 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginServiceKit;
+			productName = LoginServiceKit;
+			productReference = 820475DEE643F008B5FBA1874C6447A9 /* LoginServiceKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFD06D1625D8E885E7D8C0AF0218A9A5 /* Pods-MusicBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85A72FE5D6F990A52BEC74ABDA2E5339 /* Build configuration list for PBXNativeTarget "Pods-MusicBar" */;
+			buildPhases = (
+				9EE8A5B35066ADB5CBE47F42944EA9B2 /* Headers */,
+				0B2C9C1F2BDBD170C1B7BD2754253880 /* Sources */,
+				98CB5D4858755E8EB83F798A97790E25 /* Frameworks */,
+				9A6C9D81F07C28D210499A4B7C23100C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FD3DF8A63A7F6F9367460A95D624EF9 /* PBXTargetDependency */,
+			);
+			name = "Pods-MusicBar";
+			productName = "Pods-MusicBar";
+			productReference = 46A64846100703305383CA52776425B6 /* Pods_MusicBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 023901554BEF62B610C74254F7386E63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4363B3DEE0E244A6E95B497FB82E7385 /* LoginServiceKit */,
+				AFD06D1625D8E885E7D8C0AF0218A9A5 /* Pods-MusicBar */,
+				341C39EBCF360FDD9CE836AE8A70853C /* Pods-MusicBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A6C9D81F07C28D210499A4B7C23100C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67CF8E41FCE21EB2DB9C6B008323288 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFE2E5C3932D5F5C48DB2CA73AC54921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B2C9C1F2BDBD170C1B7BD2754253880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0096B7CEABADDB1A5B8A6586A27596 /* Pods-MusicBar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B0750C9BF95A1299AB08E813BF85FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488323F67CF2B1E9DCA2E3E5D4011B02 /* Pods-MusicBarTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1E63028C94A657E523CF7E86650E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39901ED0E424B4AD66D94DBF5ED432A3 /* LoginServiceKit-dummy.m in Sources */,
+				5C232150CA77EF06DC418A48F78C822F /* LoginServiceKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1189AD398049AF3CF17F4B0196B48A74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MusicBar";
+			target = AFD06D1625D8E885E7D8C0AF0218A9A5 /* Pods-MusicBar */;
+			targetProxy = D0753E3961E769C09B5252240E20FFF1 /* PBXContainerItemProxy */;
+		};
+		8FD3DF8A63A7F6F9367460A95D624EF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LoginServiceKit;
+			target = 4363B3DEE0E244A6E95B497FB82E7385 /* LoginServiceKit */;
+			targetProxy = BE7427484177E701D07AD0DC6F72760C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D90559411EA2D0B33C8DB1257E51D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC6E310FF7B28520F076340E6F6EFA65 /* LoginServiceKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/LoginServiceKit/LoginServiceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LoginServiceKit/LoginServiceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/LoginServiceKit/LoginServiceKit.modulemap";
+				PRODUCT_MODULE_NAME = LoginServiceKit;
+				PRODUCT_NAME = LoginServiceKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F240475DC442CE216BCBCFA088FDC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7BC9930DC9D277A0A2A8DB811766992 /* Pods-MusicBarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicBarTests/Pods-MusicBarTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicBarTests/Pods-MusicBarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7440D515053ED0806561AA62F9D68F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8A33AFD94FCA44719E3588E2456242DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E67113A6FB21FD09FD8C557DA3BA0D /* Pods-MusicBarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicBarTests/Pods-MusicBarTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicBarTests/Pods-MusicBarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B22541319766B813610CC5DC13610E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB20F1BBAE1C4454A785B1D99D02C8CB /* Pods-MusicBar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicBar/Pods-MusicBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicBar/Pods-MusicBar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E11D1C058B0BEFD50B5C1DF302025108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC6E310FF7B28520F076340E6F6EFA65 /* LoginServiceKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/LoginServiceKit/LoginServiceKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LoginServiceKit/LoginServiceKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/LoginServiceKit/LoginServiceKit.modulemap";
+				PRODUCT_MODULE_NAME = LoginServiceKit;
+				PRODUCT_NAME = LoginServiceKit;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC703764C2ACF5DA29298444D0D887E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB36557C3408CB6528130BF45D24D58 /* Pods-MusicBar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-MusicBar/Pods-MusicBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULEMAP_FILE = "Target Support Files/Pods-MusicBar/Pods-MusicBar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF78091F2E132A0C4F200C5D32A31F56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ACD57DE3A75276E864C39CDB2851600 /* Build configuration list for PBXNativeTarget "Pods-MusicBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A33AFD94FCA44719E3588E2456242DA /* Debug */,
+				5F240475DC442CE216BCBCFA088FDC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF78091F2E132A0C4F200C5D32A31F56 /* Debug */,
+				7440D515053ED0806561AA62F9D68F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85A72FE5D6F990A52BEC74ABDA2E5339 /* Build configuration list for PBXNativeTarget "Pods-MusicBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22541319766B813610CC5DC13610E95 /* Debug */,
+				FC703764C2ACF5DA29298444D0D887E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6310DB0AF3F4FB8C97CF81017433C2D /* Build configuration list for PBXNativeTarget "LoginServiceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D90559411EA2D0B33C8DB1257E51D9A /* Debug */,
+				E11D1C058B0BEFD50B5C1DF302025108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

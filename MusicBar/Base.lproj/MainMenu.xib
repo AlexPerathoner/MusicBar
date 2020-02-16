@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15702" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15702"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="MusicBar" customModuleProvider="target"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="sS3-a3-GGc" userLabel="StatusMenuController" customClass="StatusMenuController" customModule="MusicBar" customModuleProvider="target">
+            <connections>
+                <outlet property="disableFbtnu" destination="2qX-4h-rNg" id="i65-HR-y1b"/>
+                <outlet property="fn10btnu" destination="RcC-kn-H4F" id="c5r-LT-ZRR"/>
+                <outlet property="fn11btnu" destination="ruB-Rh-5bi" id="yAT-Xu-Usa"/>
+                <outlet property="fn12btnu" destination="Ywn-Z4-2wS" id="qlx-kp-kjD"/>
+                <outlet property="fn1btnu" destination="1Ko-2r-1CQ" id="2sk-om-hfr"/>
+                <outlet property="fn2btnu" destination="JwS-xL-UdL" id="1QA-RD-H5A"/>
+                <outlet property="fn3btnu" destination="RGc-fE-0Je" id="iAt-2l-wWk"/>
+                <outlet property="fn4btnu" destination="MfB-DX-zjb" id="QOa-Rd-2Lw"/>
+                <outlet property="fn5btnu" destination="aZt-YN-4qo" id="xqf-sW-RU6"/>
+                <outlet property="fn6btnu" destination="Xwi-JB-fp9" id="39N-Wu-Hbi"/>
+                <outlet property="fn7btnu" destination="vqX-4D-GLM" id="RnO-KE-pAL"/>
+                <outlet property="fn8btnu" destination="Um8-LJ-7Xl" id="KIe-GX-MCs"/>
+                <outlet property="fn9btnu" destination="fLD-bj-4su" id="ciB-8e-dVB"/>
+                <outlet property="giveAccessRightOutlet" destination="ghe-7A-L1R" id="QRZ-Tg-DlY"/>
+                <outlet property="launchAtLoginOutlet" destination="DWD-eT-PKz" id="CSd-Lg-W1q"/>
+                <outlet property="statusMenu" destination="qZp-Ad-uDX" id="XFG-js-aKj"/>
+            </connections>
+        </customObject>
+        <menu autoenablesItems="NO" id="qZp-Ad-uDX">
+            <items>
+                <menuItem title="Help" id="YE2-8g-U74">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Help" systemMenu="help" autoenablesItems="NO" id="xdc-9e-gJM">
+                        <items>
+                            <menuItem title="Application Help" id="Hvs-El-zeQ">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="showHelp:" target="-1" id="HQS-5T-doC"/>
+                                    <outlet property="view" destination="XIh-nh-gt4" id="Xni-Nd-7Ep"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Settings" id="a46-32-fTJ">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Settings" autoenablesItems="NO" id="Fc7-zM-YCn">
+                        <items>
+                            <menuItem title="Shortcut" id="1G8-Si-zii">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Shortcut" autoenablesItems="NO" id="Yey-en-gu8">
+                                    <items>
+                                        <menuItem title="F1" id="1Ko-2r-1CQ">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="fn1btn:" target="sS3-a3-GGc" id="vfY-vy-PMr"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="F2" id="JwS-xL-UdL">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="fn2btn:" target="sS3-a3-GGc" id="Hbn-gZ-8Tk"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="F3" id="RGc-fE-0Je">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="f3btn:" target="sS3-a3-GGc" id="mMc-TE-B4r"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="F4" id="MfB-DX-zjb">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="f4btn:" target="sS3-a3-GGc" id="8F0-zg-fUK"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="F5" id="aZt-YN-4qo">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="f5btn:" target="sS3-a3-GGc" id="703-cr-UKN"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="F6" id="Xwi-JB-fp9">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="f6btn:" target="sS3-a3-GGc" id="K1a-Ui-2jw"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="F7" id="vqX-4D-GLM">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="f7btn:" target="sS3-a3-GGc" id="hGx-SE-WeT"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="F8" id="Um8-LJ-7Xl">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="f8btn:" target="sS3-a3-GGc" id="2bc-WZ-8Yx"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="F9" id="fLD-bj-4su">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="f9btn:" target="sS3-a3-GGc" id="VEI-h4-Kfu"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="F10" id="RcC-kn-H4F">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="f10btn:" target="sS3-a3-GGc" id="zBA-zf-pX1"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="F11" id="ruB-Rh-5bi">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="f11btn:" target="sS3-a3-GGc" id="2oR-Hf-V5i"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="F12" id="Ywn-Z4-2wS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="f12btn:" target="sS3-a3-GGc" id="qLX-kG-4jU"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Disable" id="2qX-4h-rNg">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="disableFbtn:" target="sS3-a3-GGc" id="eF7-Ro-AQS"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Launch on login" id="DWD-eT-PKz">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="launchAtLoginClicked:" target="sS3-a3-GGc" id="ZHf-uS-t53"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Accessibility rights" id="ghe-7A-L1R">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="accessibilityRightsClicked:" target="sS3-a3-GGc" id="x6T-fx-N6W"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="57I-fR-jWZ"/>
+                <menuItem title="Quit" id="k4N-2W-XAy">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClicked:" target="sS3-a3-GGc" id="Eue-jt-z1Q"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="-386" y="451.5"/>
+        </menu>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" titlebarAppearsTransparent="YES" id="pEv-z0-5sU">
+            <windowStyleMask key="styleMask" closable="YES" miniaturizable="YES" resizable="YES" fullSizeContentView="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="283" y="305" width="276" height="634"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="900"/>
+            <view key="contentView" id="XIh-nh-gt4">
+                <rect key="frame" x="0.0" y="0.0" width="276" height="634"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sk3-ie-9ci">
+                        <rect key="frame" x="18" y="606" width="240" height="17"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textFieldCell key="cell" selectable="YES" title="Why MusicBar?" id="zGy-63-lLZ">
+                            <font key="font" metaFont="systemBold" size="14"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WNT-B2-dYG">
+                        <rect key="frame" x="18" y="513" width="240" height="85"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textFieldCell key="cell" selectable="YES" id="U14-FT-KIw">
+                            <font key="font" usesAppearanceFont="YES"/>
+                            <string key="title">Annoyed by a non-working pause/play button? With MusicBar you just need to mute your output volume and music will stop! As you unmute the volume the track will play again.</string>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9fg-aR-Eer">
+                        <rect key="frame" x="18" y="473" width="240" height="18"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textFieldCell key="cell" selectable="YES" title="Not Working?" id="8yS-Tx-hsd">
+                            <font key="font" metaFont="systemBold" size="14"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LtA-vM-vCX">
+                        <rect key="frame" x="18" y="397" width="240" height="68"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textFieldCell key="cell" selectable="YES" id="dju-43-PiX">
+                            <font key="font" usesAppearanceFont="YES"/>
+                            <string key="title">After a lot of hours of continuisly running it's possible that MusicBar needs to restart. To do this just click on the icon and select the "Start" item.</string>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1e6-RX-hR8">
+                        <rect key="frame" x="18" y="357" width="240" height="18"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textFieldCell key="cell" selectable="YES" title="Speaked Info function" id="6bB-jP-X8J">
+                            <font key="font" metaFont="systemBold" size="14"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3JR-JF-nOf">
+                        <rect key="frame" x="18" y="298" width="240" height="51"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textFieldCell key="cell" selectable="YES" title="If you want to you can choose a global shortcut which will speak the name and the artist of the playing track." id="Vjn-Ui-cux">
+                            <font key="font" usesAppearanceFont="YES"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l9L-3v-QcW">
+                        <rect key="frame" x="18" y="258" width="240" height="18"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textFieldCell key="cell" selectable="YES" title="Settings Menu" id="eXt-uQ-qk1">
+                            <font key="font" metaFont="systemBold" size="14"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EVr-0e-Ar4">
+                        <rect key="frame" x="18" y="14" width="240" height="28"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textFieldCell key="cell" selectable="YES" id="UOU-fS-IPu">
+                            <font key="font" metaFont="label" size="11"/>
+                            <string key="title">Created by Alex Perathoner on 10/07/2018.
+Copyright © 2018 Alex. All rights reserved.</string>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vBj-4P-H4t">
+                        <rect key="frame" x="18" y="63" width="240" height="187"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textFieldCell key="cell" selectable="YES" id="QH7-p5-ptO">
+                            <font key="font" usesAppearanceFont="YES"/>
+                            <string key="title">Below this menu there's another called "Settings". If it is the first time you open the app please click on the button to let the app start itself as you log in. To let the Speaked Info work correctly you'll need to add MusicBar to the apps with accessibility power. Just click the relative button and follow instructions. Note that to let the changes take effect MusicBar needs to restart!</string>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="-229" y="-73"/>
+        </window>
+    </objects>
+</document>
