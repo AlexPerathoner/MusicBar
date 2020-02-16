@@ -5,11 +5,11 @@ A handy menu bar app to pause Music when you mute the volume output.
 
 And it can also tell what song you are listening to!
 
-##Features
+## Features
 
 Annoyed by a non-working pause/play button? With MusicBar you just need to mute your output volume and music will stop! As you unmute the volume the track will play again.
 
-###Speaked-Info function
+### Speaked-Info function
 If you want to you can choose a global shortcut which will speak the name and the artist of the playing track.
 All function-keys are allowed
 
