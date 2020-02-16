@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15702" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15705" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15702"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15705"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -168,52 +168,14 @@
         <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" titlebarAppearsTransparent="YES" id="pEv-z0-5sU">
             <windowStyleMask key="styleMask" closable="YES" miniaturizable="YES" resizable="YES" fullSizeContentView="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="283" y="305" width="276" height="634"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="900"/>
+            <rect key="contentRect" x="283" y="305" width="276" height="505"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1440"/>
             <view key="contentView" id="XIh-nh-gt4">
-                <rect key="frame" x="0.0" y="0.0" width="276" height="634"/>
+                <rect key="frame" x="0.0" y="0.0" width="276" height="505"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sk3-ie-9ci">
-                        <rect key="frame" x="18" y="606" width="240" height="17"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <textFieldCell key="cell" selectable="YES" title="Why MusicBar?" id="zGy-63-lLZ">
-                            <font key="font" metaFont="systemBold" size="14"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WNT-B2-dYG">
-                        <rect key="frame" x="18" y="513" width="240" height="85"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <textFieldCell key="cell" selectable="YES" id="U14-FT-KIw">
-                            <font key="font" usesAppearanceFont="YES"/>
-                            <string key="title">Annoyed by a non-working pause/play button? With MusicBar you just need to mute your output volume and music will stop! As you unmute the volume the track will play again.</string>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9fg-aR-Eer">
-                        <rect key="frame" x="18" y="473" width="240" height="18"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <textFieldCell key="cell" selectable="YES" title="Not Working?" id="8yS-Tx-hsd">
-                            <font key="font" metaFont="systemBold" size="14"/>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
-                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LtA-vM-vCX">
-                        <rect key="frame" x="18" y="397" width="240" height="68"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <textFieldCell key="cell" selectable="YES" id="dju-43-PiX">
-                            <font key="font" usesAppearanceFont="YES"/>
-                            <string key="title">After a lot of hours of continuisly running it's possible that MusicBar needs to restart. To do this just click on the icon and select the "Start" item.</string>
-                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                        </textFieldCell>
-                    </textField>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1e6-RX-hR8">
-                        <rect key="frame" x="18" y="357" width="240" height="18"/>
+                        <rect key="frame" x="18" y="342" width="240" height="18"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textFieldCell key="cell" selectable="YES" title="Speaked Info function" id="6bB-jP-X8J">
                             <font key="font" metaFont="systemBold" size="14"/>
@@ -222,7 +184,7 @@
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3JR-JF-nOf">
-                        <rect key="frame" x="18" y="298" width="240" height="51"/>
+                        <rect key="frame" x="18" y="283" width="240" height="51"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textFieldCell key="cell" selectable="YES" title="If you want to you can choose a global shortcut which will speak the name and the artist of the playing track." id="Vjn-Ui-cux">
                             <font key="font" usesAppearanceFont="YES"/>
@@ -231,7 +193,7 @@
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l9L-3v-QcW">
-                        <rect key="frame" x="18" y="258" width="240" height="18"/>
+                        <rect key="frame" x="18" y="251" width="240" height="18"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textFieldCell key="cell" selectable="YES" title="Settings Menu" id="eXt-uQ-qk1">
                             <font key="font" metaFont="systemBold" size="14"/>
@@ -240,7 +202,7 @@
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EVr-0e-Ar4">
-                        <rect key="frame" x="18" y="14" width="240" height="28"/>
+                        <rect key="frame" x="18" y="20" width="240" height="28"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textFieldCell key="cell" selectable="YES" id="UOU-fS-IPu">
                             <font key="font" metaFont="label" size="11"/>
@@ -251,7 +213,7 @@ Copyright © 2018 Alex. All rights reserved.</string>
                         </textFieldCell>
                     </textField>
                     <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vBj-4P-H4t">
-                        <rect key="frame" x="18" y="63" width="240" height="187"/>
+                        <rect key="frame" x="18" y="56" width="240" height="187"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textFieldCell key="cell" selectable="YES" id="QH7-p5-ptO">
                             <font key="font" usesAppearanceFont="YES"/>
@@ -260,9 +222,28 @@ Copyright © 2018 Alex. All rights reserved.</string>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sk3-ie-9ci">
+                        <rect key="frame" x="18" y="468" width="240" height="17"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textFieldCell key="cell" selectable="YES" title="Why MusicBar?" id="zGy-63-lLZ">
+                            <font key="font" metaFont="systemBold" size="14"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WNT-B2-dYG">
+                        <rect key="frame" x="18" y="375" width="240" height="85"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textFieldCell key="cell" selectable="YES" id="U14-FT-KIw">
+                            <font key="font" usesAppearanceFont="YES"/>
+                            <string key="title">Annoyed by a non-working pause/play button? With MusicBar you just need to mute your output volume and music will stop! As you unmute the volume the track will play again.</string>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="-229" y="-73"/>
+            <point key="canvasLocation" x="-229" y="-137.5"/>
         </window>
     </objects>
 </document>
