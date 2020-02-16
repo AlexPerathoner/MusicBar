@@ -33,7 +33,7 @@
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
-	<string>NSApplication</string>
+	<string>MusicBar.MediaApplication</string>
 	<key>NSAppleEventsUsageDescription</key>
 	<string>Necessary to interact with Music</string>
 </dict>

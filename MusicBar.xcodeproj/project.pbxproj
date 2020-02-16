@@ -14,6 +14,7 @@
 		A2DEB1531BC9980E004AAEB3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2DEB1511BC9980E004AAEB3 /* MainMenu.xib */; };
 		AF780A8A5A652D9034B90E9A /* Pods_MusicBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75B42700FD3A3E7BD2BDE489 /* Pods_MusicBar.framework */; };
 		F3D964D018D0708944B20758 /* Pods_MusicBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB5ADA295DBCAED53B08A3D /* Pods_MusicBarTests.framework */; };
+		FA6890A423F9BD9800344607 /* MediaApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6890A323F9BD9800344607 /* MediaApplication.swift */; };
 		FA9CA96623B51E6400C3BA14 /* MusicBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9CA96523B51E6400C3BA14 /* MusicBarTests.swift */; };
 		FA9CA96E23B528D200C3BA14 /* AppleScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9CA96D23B528D200C3BA14 /* AppleScript.swift */; };
 		FAD527D223B26D4200B50107 /* ScriptingBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD527D123B26D4200B50107 /* ScriptingBridge.swift */; };
@@ -56,6 +57,7 @@
 		D539F471EB4DA358170DAAC7 /* Pods-MusicBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicBar.release.xcconfig"; path = "Target Support Files/Pods-MusicBar/Pods-MusicBar.release.xcconfig"; sourceTree = "<group>"; };
 		EF54769CE1D1D1CB1245ECCD /* Pods-MusicBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicBarTests.debug.xcconfig"; path = "Target Support Files/Pods-MusicBarTests/Pods-MusicBarTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F3A9B37F97831E77FD3DE591 /* Pods-MusicBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicBar.debug.xcconfig"; path = "Target Support Files/Pods-MusicBar/Pods-MusicBar.debug.xcconfig"; sourceTree = "<group>"; };
+		FA6890A323F9BD9800344607 /* MediaApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediaApplication.swift; sourceTree = "<group>"; };
 		FA9CA96323B51E6400C3BA14 /* MusicBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9CA96523B51E6400C3BA14 /* MusicBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBarTests.swift; sourceTree = "<group>"; };
 		FA9CA96723B51E6400C3BA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				FADB98FC22394F7E000A0D78 /* MusicBar.entitlements */,
 				A2DEB14D1BC9980E004AAEB3 /* AppDelegate.swift */,
 				A2D582271BCAAF37006A464B /* StatusMenuController.swift */,
+				FA6890A323F9BD9800344607 /* MediaApplication.swift */,
 				FAEBB8D123B7A49F00DD290B /* Speaker.swift */,
 				FAD527D123B26D4200B50107 /* ScriptingBridge.swift */,
 				FA9CA96D23B528D200C3BA14 /* AppleScript.swift */,
@@ -331,6 +334,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAD527D223B26D4200B50107 /* ScriptingBridge.swift in Sources */,
+				FA6890A423F9BD9800344607 /* MediaApplication.swift in Sources */,
 				A2D582281BCAAF37006A464B /* StatusMenuController.swift in Sources */,
 				FAEBB8D223B7A49F00DD290B /* Speaker.swift in Sources */,
 				A2DEB14E1BC9980E004AAEB3 /* AppDelegate.swift in Sources */,

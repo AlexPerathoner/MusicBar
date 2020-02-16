@@ -14,7 +14,6 @@ var key: Int = 0
 
 
 
-
 // - MARK: CAUTION!
 // This code is very bad and chaotic- you know spaghetti? Exactly.
 // Somehow I got it to work, don't try to understand it
